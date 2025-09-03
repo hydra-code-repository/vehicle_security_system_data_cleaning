@@ -1,0 +1,8 @@
+# Virtual Environment
+venv/
+
+# Data dir
+data/
+
+# Notebook
+notesbooks/Immo_Assistant.app.ipynb
