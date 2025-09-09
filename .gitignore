@@ -2,7 +2,7 @@
 venv/
 
 # Data dir
-# data/
+data/
 
 # Notebook
 notebooks/test_methods.ipynb
