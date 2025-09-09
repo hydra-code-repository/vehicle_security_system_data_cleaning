@@ -10,7 +10,7 @@ jobs:
     runs-on: Windows-2022
     steps:
       - name: Checkout code
-        uses: actions/checkout@4
+        uses: actions/checkout@v4
 
       - name: Set up Python
         uses: actions/setup-python@v5
