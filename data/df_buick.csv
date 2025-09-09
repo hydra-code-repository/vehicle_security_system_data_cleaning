@@ -1,0 +1,67 @@
+,Year,Make,Model,Security,Hardware Part Number,Is this hardware clonable?
+10,1990,Buick,Reatta,PK1,Information not available,No
+11,1990,Buick,Riviera,PK1,Information not available,No
+20,1991,Buick,Park Avenue,PK1,Information not available,No
+21,1991,Buick,Reatta,PK1,Information not available,No
+22,1991,Buick,Riviera,PK1,Information not available,No
+32,1992,Buick,Reatta,PK1,Information not available,No
+33,1992,Buick,Riviera,PK1,Information not available,No
+34,1992,Buick,LeSabre,PK2,Information not available,No
+35,1992,Buick,Park Avenue,PK2,Information not available,No
+48,1993,Buick,Riviera,PK1,Information not available,No
+49,1993,Buick,LeSabre,PK2,Information not available,No
+50,1993,Buick,Park Avenue,PK2,Information not available,No
+63,1994,Buick,LeSabre,PK2,Information not available,No
+64,1994,Buick,Park Avenue,PK2,Information not available,No
+65,1994,Buick,Regal,PK2,Information not available,No
+66,1994,Buick,Roadmaster,PK2,U40-051,No
+80,1995,Buick,LeSabre,PK2,Information not available,No
+81,1995,Buick,Park Avenue,PK2,Information not available,No
+82,1995,Buick,Regal,PK2,U30C,No
+83,1995,Buick,Riviera,PK2,Information not available,No
+84,1995,Buick,Roadmaster,PK2,U40-051,No
+103,1996,Buick,LeSabre,PK2,U42C-800,No
+104,1996,Buick,Park Avenue,PK2,U42C-800,No
+105,1996,Buick,Regal,PK2,U42C-800,No
+106,1996,Buick,Riviera,PK2,U42C-800,No
+107,1996,Buick,Roadmaster,PK2,U40-399,No
+108,1996,Buick,Skylark,PL1,U42C-800,No
+191,2002,Buick,Rendezvous,PK3,U44C-482,No
+216,2003,Buick,Rendezvous,PK3,U44C-482,No
+245,2004,Buick,Rendezvous,PK3,U44C-721,No
+246,2004,Buick,Rainier,PL2,U44G-G45,No
+282,2005,Buick,LaCrosse,PK3,U32-C55,No
+283,2005,Buick,Rendezvous,PK3,E55-507,No
+284,2005,Buick,Terraza,PK3,U32-XC2,No
+285,2005,Buick,Rainier,PL2,P10,No
+325,2006,Buick,LaCrosse,PK3,E55-507,No
+326,2006,Buick,Rendezvous,PK3,E55-507,No
+327,2006,Buick,Terraza,PK3,U32-XC2,No
+328,2006,Buick,Lucerne,PK3,Information not available,No
+329,2006,Buick,Rainier,PL2,P10,No
+369,2007,Buick,LaCrosse,PK3,E55-507,No
+370,2007,Buick,Rendezvous,PK3,U32-XC2,No
+371,2007,Buick,Terraza,PK3,Information not available,No
+372,2007,Buick,Lucerne,PK3,E67-TP1,No
+420,2008,Buick,LaCrosse,PK3,E67-TP1,No
+421,2008,Buick,Enclave,PK3,E67-TP1,No
+422,2008,Buick,Lucerne,PK3,U32-P05,No
+469,2009,Buick,LaCrosse,PK3,U32-P05,No
+470,2009,Buick,Enclave,PK3,E69-216,Yes
+471,2009,Buick,Lucerne,PK3,E37,Yes
+520,2010,Buick,Enclave,PK3,Information not available,No
+521,2010,Buick,Lucerne,PK3,E37,Yes
+522,2010,Buick,LaCrosse,PK3,E39-F93S,Yes
+562,2011,Buick,Enclave,PK3,E69-216,Yes
+563,2011,Buick,Lucerne,PK3,E37,Yes
+564,2011,Buick,LaCrosse,PK3,E39-F93S,Yes
+565,2011,Buick,Regal,PK3,E39-F93S,Yes
+595,2012,Buick,Enclave,PK3,E69-216,Yes
+596,2012,Buick,LaCrosse,PK3,E69-216,Yes
+597,2012,Buick,Regal,PK3,E39-F93S,Yes
+598,2012,Buick,Verano,PK3,Information not available,No
+628,2013,Buick,Enclave,PK3,E39A-H98S,Yes
+629,2013,Buick,Encore,PK3,E78-AB8,Yes
+630,2013,Buick,LaCrosse,PK3,E39A-H98S,Yes
+631,2013,Buick,Regal,PK3,E39A-H98S,Yes
+632,2013,Buick,Verano,PK3,E39-X94S,Yes

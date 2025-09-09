@@ -2,7 +2,7 @@
 venv/
 
 # Data dir
-data/
+# data/
 
 # Notebook
-notesbooks/Immo_Assistant.app.ipynb
+notebooks/test_methods.ipynb

@@ -1,0 +1,99 @@
+name: Test Vehicle Data Cleaning
+
+on:
+  push:
+    branches:
+        - main
+
+jobs:
+  build:
+    runs-on: Windows-2022
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+            python-version: '3.12'
+
+      - name: List files from folder data
+        run: dir data
+
+      - name: Run Acura Notebook
+        run: jupyter nbconvert --to notebooks --execute --inplace notebooks/df_acura.ipynb
+
+      - name: Run Audi Notebook
+        run: jupyter nbconvert --to notebooks --execute --inplace notebooks/df_audi.ipynb
+
+      - name: Run BMW Notebook
+        run: jupyter nbconvert --to notebooks --execute --inplace notebooks/df_bmw.ipynb
+
+      - name: Run Chevrolet Brands Notebook 
+        run: jupyter nbconvert --to notebooks --execute --inplace notebooks/df_chevrolet_brands.ipynb
+
+      - name: Run Chrysler Notebook
+        run: jupyter nbconvert --to notebooks --execute --inplace notebooks/df_chrysler.ipynb
+      
+      - name: Run Dodge Notebook
+        run: jupyter nbconvert --to notebooks --execute --inplace notebooks/df_dodge.ipynbipynb
+
+      - name: Run Fiat Notebook
+        run: jupyter nbconvert --to notebooks --execute --inplace notebooks/df_fiat.ipynb
+
+      - name: Run Ford Notebook
+        run: jupyter nbconvert --to notebooks --execute --inplace notebooks/df_ford.ipynb
+    
+      - name: Run Honda Notebook
+        run: jupyter nbconvert --to notebooks --execute --inplace notebooks/df_honda.ipynb
+
+      - name: Run Infiniti Notebook
+        run: jupyter nbconvert --to notebooks --execute --inplace notebooks/df_infiniti.ipynb
+
+      - name: Run Jaguar Notebook
+        run: jupyter nbconvert --to notebooks --execute --inplace notebooks/df_jaguar.ipynb
+
+      - name: Run Jeep Notebook
+        run: jupyter nbconvert --to notebooks --execute --inplace notebooks/df_jeep.ipynb
+        
+      - name: Run Land Rover Notebook
+        run: jupyter nbconvert --to notebooks --execute --inplace notebooks/df_land_rover.ipynb
+
+      - name: Run Lexus Notebook
+        run: jupyter nbconvert --to notebooks --execute --inplace notebooks/df_lexus.ipynb
+      
+      - name: Run Lincoln Notebook
+        run: jupyter nbconvert --to notebooks --execute --inplace notebooks/df_lincoln.ipynb
+      
+      - name: Run Mazda Notebook
+        run: jupyter nbconvert --to notebooks --execute --inplace notebooks/df_mazda.ipynb
+
+      - name: Run Mercury Notebook
+        run: jupyter nbconvert --to notebooks --execute --inplace notebooks/df_mercury.ipynb
+
+      - name: Run Mini Notebook
+        run: jupyter nbconvert --to notebooks --execute --inplace notebooks/df_mini.ipynb
+
+      - name: Run Mitsubishi Notebook
+        run: jupyter nbconvert --to notebooks --execute --inplace notebooks/df_mitsubishi.ipynb
+
+      - name: Run Nissan Notebook
+        run: jupyter nbconvert --to notebooks --execute --inplace notebooks/df_nissan.ipynb
+
+      - name: Run Plymouth Notebook
+        run: jupyter nbconvert --to notebooks --execute --inplace notebooks/df_plymouth.ipynb
+
+      - name: Run Rolls-Royce Notebook
+        run: jupyter nbconvert --to notebooks --execute --inplace notebooks/df_rolls_royce.ipynb
+
+      - name: Run Scion Notebook
+        run: jupyter nbconvert --to notebooks --execute --inplace notebooks/df_scion.ipynb
+
+      - name: Run Subaru Notebook
+        run: jupyter nbconvert --to notebooks --execute --inplace notebooks/df_subaru.ipynb
+
+      - name: Run Toyota Notebook
+        run: jupyter nbconvert --to notebooks --execute --inplace notebooks/df_toyota.ipynb
+
+      - name: Run VW Notebook
+        run: jupyter nbconvert --to notebooks --execute --inplace notebooks/df_volkswagen.ipynb
