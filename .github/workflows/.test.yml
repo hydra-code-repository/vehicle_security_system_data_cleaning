@@ -39,7 +39,7 @@ jobs:
         run: jupyter nbconvert --to notebook --execute --inplace notebooks/df_chrysler.ipynb
       
       - name: Run Dodge Notebook
-        run: jupyter nbconvert --to notebook --execute --inplace notebooks/df_dodge.ipynbipynb
+        run: jupyter nbconvert --to notebook --execute --inplace notebooks/df_dodge.ipynb
 
       - name: Run Fiat Notebook
         run: jupyter nbconvert --to notebook --execute --inplace notebooks/df_fiat.ipynb
