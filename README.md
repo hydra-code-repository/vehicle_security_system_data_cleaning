@@ -69,7 +69,6 @@ security_system_data_cleaning/
 
 ## Author
 Developed by [Weverson Barbieri de Oliveira](https://github.com/weversonbarbieri)
-
 E-mail: weverson.b@mintt.com 
 
 ## License
