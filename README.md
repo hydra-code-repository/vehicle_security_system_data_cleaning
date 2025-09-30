@@ -67,7 +67,9 @@ security_system_data_cleaning/
 - No external database is required; only spreadsheets are used
 - Each notebook is tailored for a specific manufacturer due to differences in security systems
 
-## Contact
-For questions or suggestions, contact [Weverson Barbieri](https://github.com/weversonbarbieri).
+## Author
+Developed by [Weverson Barbieri de Oliveira](https://github.com/weversonbarbieri)
+E-mail: weverson.b@mintt.com 
 
-> 
+## License
+MIT
